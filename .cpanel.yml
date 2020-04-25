@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/c1360792c/public_html/gittest/
+    - /bin/cp -a * $DEPLOYPATH
